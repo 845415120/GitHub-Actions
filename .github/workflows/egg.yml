@@ -1,5 +1,4 @@
 name: 打包React项目
-
 on: push
 
 permissions:
@@ -23,5 +22,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with: 
           branch: gh-pages
-          folder: build
+          folder: .next
        
