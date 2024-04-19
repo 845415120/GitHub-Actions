@@ -4,7 +4,7 @@ on: push
 
 permissions:
   contents: write
-  
+
 jobs: 
   npm-build:
     name: npm-build工作
@@ -21,6 +21,6 @@ jobs:
       - name: 部署
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-            branch: gh-pages
-            folder: build
+          branch: gh-pages
+          folder: build
        
